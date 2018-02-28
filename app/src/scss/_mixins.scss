@@ -1,0 +1,21 @@
+@import 'mediasQueries';
+
+@mixin fillSpace($margin: 0) {
+  content: '';
+  position: absolute;
+  top: $margin;
+  bottom: $margin;
+  left: $margin;
+  right: $margin;
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+}
+
+
+@function toRem($size) {
+  $remSize: $size / 10px;
+  @return #{$remSize}rem;
+}

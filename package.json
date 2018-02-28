@@ -1,0 +1,29 @@
+{
+  "name": "tom_no",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "barba-transitions": "^1.1.0",
+    "browser-sync": "^2.23.6",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-minify": "^1.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-tinypng-compress": "^1.2.1",
+    "gutil": "^1.6.4",
+    "postcss-cssnext": "^3.1.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "sass": "^1.0.0-beta.5.2"
+  }
+}
