@@ -2,10 +2,11 @@
 <html lang="fr" class="no-js">
 
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tom Heneault</title>
+    <title>Le Casimir</title>
+    <!--
     <meta name="description" content="Tom Heneault"/>
     <meta name="keywords" content="tom, heneault"/>
     <meta name="author" content="Tom Heneault"/>
@@ -16,6 +17,8 @@
     <meta property="og:image" content="https://www.tom.heneau.lt/img/Logo_mini.png">
     <meta property="article:published_time" content="2017-09-01">
     <meta property="article:author" content="">
+-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -23,35 +26,213 @@
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <link href="https://fonts.googleapis.com/css?family=Karma" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 
 <body>
-<div class="container">
-    <header class="header" id="h">
-    </header>
-    <div class="rib--notReady">
-        <h2>Ribé's not ready to run</h2>
-        <p>Try gulp ribé into root folder ? :)</p>
-    </div>
-
-    <div class="content rib">
-        <div class="squareFade">
-            <div class="line-top"></div>
-            <div class="line-right"></div>
-            <div class="line-bottom"></div>
-            <div class="line-left"></div>
-            <div class="black-mask"></div>
-            <div class="text">
-                <h1>Ribé's ready to run for you</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+            <a class="navbar-brand" href="#">Le Casimir</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#accueil">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lebistro">Le bistro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lebar">Le bar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lesinfos">Les infos</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
+    </header>
+
+    <section id="accueil" style="background-image: url(lecasimir.jpg)">
+
+
+        <div id="container">
+            <div class="element">
+                <h1>Le Casimir</h1>
+            </div>
+
+            <div class="element">
+                <p>Bistro le midi et bar à tapas/vins/bières le soir</p>
+            </div>
+
+            <div class="element">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="lebistro">
+        <div id="container">
+            <div class="element">
+                <h1>Le bistro</h1>
+            </div>
+
+            <div class="element">
+                <p>Le midi, le Casimir vous propose pleins de chose du genreddfbjqenfvjbefvbfbgqdfdnd efkbjbd rgbrj ldgkbnk dfbdebf jgbng jnfg lk nfg dgbefbefbrgbelfvjnslgjevdfljjbdlvk kdnfvjbbrbzapefnf bgdfrjbnsljfznvjenglbjdnfjdbnltjndflbjdnbdlgjbndjbdflbndjndsdfbdfb et aussi du dfgkjevdjgbldfrgnvndfg dfdjdgnbd tdgbofjgnbdrjg dth dbgkjr rtgtkghj grth</p>
+            </div>
+
+            <div class="element">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 30vw; height: 20vh">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/midi3.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/midi2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/midi.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+                </div>
+            </div>
+
         </div>
 
-        <p class="rib__hint">Happy coding :3</p>
-    </div>
-</div>
+    </section>
 
-<script src="js/app.js"></script>
+    <section id="lebar">
+
+        <div id="container">
+            <div class="element">
+                <h1>Le bar</h1>
+            </div>
+
+            <div class="element">
+                <p>Le midi, le Casimir vous propose pleins de chose du genreddfbjqenfvjbefvbfbgqdfdnd efkbjbd rgbrj ldgkbnk dfbdebf jgbng jnfg lk nfg dgbefbefbrgbelfvjnslgjevdfljjbdlvk kdnfvjbbrbzapefnf bgdfrjbnsljfznvjenglbjdnfjdbnltjndflbjdnbdlgjbndjbdflbndjndsdfbdfb et aussi du dfgkjevdjgbldfrgnvndfg dfdjdgnbd tdgbofjgnbdrjg dth dbgkjr rtgtkghj grth</p>
+            </div>
+
+            <div class="element">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 30vw; height: 20vh">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/midi3.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/midi2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/midi.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="lesphotos">
+
+        <div id="container">
+            <div class="element">
+                <h1>Les photos</h1>
+            </div>
+
+            <div class="element">
+                <p>Le midi, le Casimir vous propose pleins de chose du genreddfbjqenfvjbefvbfbgqdfdnd efkbjbd rgbrj ldgkbnk dfbdebf jgbng jnfg lk nfg dgbefbefbrgbelfvjnslgjevdfljjbdlvk kdnfvjbbrbzapefnf bgdfrjbnsljfznvjenglbjdnfjdbnltjndflbjdnbdlgjbndjbdflbndjndsdfbdfb et aussi du dfgkjevdjgbldfrgnvndfg dfdjdgnbd tdgbofjgnbdrjg dth dbgkjr rtgtkghj grth</p>
+            </div>
+
+            <div class="element">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 30vw; height: 20vh">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/midi3.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/midi2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/midi.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="lesinfos">
+        <div id="container">
+            <div class="element" id="1">
+                <i class="fas fa-clock fa-10x"></i>
+                <h2>Horaires</h2>
+                <p>Du Mardi au samedi </p>
+                <p>Le midi de 11:00 à 14:00 sauf le Samedi</p>
+                <p>Le soir de 17:00 à 23:00</p>
+            </div>
+
+            <div class="element" id="2">
+                <i class="fas fa-thumbtack fa-10x"></i>
+                <h2>Localisation</h2>
+                <p>Le Casimir se situe au 10 rue de la libération à l'angle avec la rue Casimir-Perier </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2231.8357710106084!2d5.728114999988623!3d45.18837498660979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af48c7e388409%3A0xffdf6eb3ac0d8438!2sLe+Casimir+Caf%C3%A9-restaurant!5e0!3m2!1sfr!2sfr!4v1519913148044" width="350" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <div class="element" id="3">
+                <i class="fas fa-clipboard-list fa-10x"></i>
+                <h2>Reservations</h2>
+                <p>Pensez à reserver avant d'arriver losque c'est complet
+                    <p>
+                        <p>Par téléphone : 0624567939</p>
+                        <p>Pour nous contacter : lecasimir.gre@gmail.com</p>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <h1>Le casimir.</h1>
+        <p>Copyright 2018 dev par Tom</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
